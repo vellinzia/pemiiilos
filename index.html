@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Voting Ketua OSIS SMKN 1 Ampelgading</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f6ff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            background: #003cff;
+            color: white;
+            padding: 20px 0;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 900px;
+            margin: 30px auto;
+        }
+
+        .kandidat-card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .kandidat-card img {
+            width: 120px;
+            height: 120px;
+            border-radius: 10px;
+            object-fit: cover;
+            border: 3px solid #003cff;
+        }
+
+        .info {
+            flex: 1;
+        }
+
+        .info h2 {
+            margin: 0;
+            color: #003cff;
+        }
+
+        .vote-btn {
+            padding: 12px 20px;
+            background: #003cff;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: .2s;
+        }
+
+        .vote-btn:hover {
+            background: #002bb3;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>E-VOTING KETUA OSIS</h1>
+    <h2>SMKN 1 AMPELGADING</h2>
+</header>
+
+<div class="container">
+
+    <!-- Kandidat 1 -->
+    <div class="kandidat-card">
+        <img src="https://via.placeholder.com/120" alt="Kandidat 1">
+        <div class="info">
+            <h2>1. Andi Pratama</h2>
+            <p>Visi: Mewujudkan OSIS yang kreatif, aktif, dan inovatif.</p>
+        </div>
+        <button class="vote-btn">Pilih</button>
